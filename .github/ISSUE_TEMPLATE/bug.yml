@@ -17,7 +17,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: wow-version
+    id: wowversion
     attributes:
       label: World of Warcraft Version
       description: What World of Warcraft version did this happen on?
