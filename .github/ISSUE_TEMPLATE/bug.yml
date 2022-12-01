@@ -23,13 +23,9 @@ body:
       description: What World of Warcraft version did this happen on?
       options:
         - Retail
-        - Retail PTR
-        - Retail Beta
         - Wrath
-        - Wrath PTR
         - TBC
         - Classic
-        - Classic PTR
     validations:
       required: true
   - type: textarea
