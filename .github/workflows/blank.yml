@@ -6,6 +6,13 @@ on:
 jobs:
   label-component:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      
+    strategy:
+      matrix:
+        template: [ bug.yml ]
+        
     steps:
       - uses: actions/checkout@v3
 
@@ -19,5 +26,5 @@ jobs:
         uses: redhat-plumbers-in-action/advanced-issue-labeler@v1
         with:
           issue-form: ${{ steps.issue-parser.outputs.jsonString }}
-          section: wowversion
+          section: wow-version
           token: ${{ secrets.GITHUB_TOKEN }}
