@@ -1,6 +1,6 @@
 policy:
   - section:
-      - id: [wow-version]
+      - id: ['wow-version']
         block-list: ['None', 'Other']
         label:
           - name: 'Retail'
