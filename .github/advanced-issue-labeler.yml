@@ -1,6 +1,8 @@
 policy:
-  - section:
+  - template: ['bug.yml']
+    section:
       - id: ['wow-version']
+        block-list: []
         label:
           - name: 'Retail'
             keys: ['Retail', 'Retail PTR', 'Retail Beta']
