@@ -1,0 +1,15 @@
+policy:
+  - section:
+      - id: [wow-version]
+        block-list: ['None', 'Other']
+        label:
+          - name: 'Retail'
+            keys: ['Retail', 'Retail PTR', 'Retail Beta']
+          - name: 'Wrath'
+            keys: ['Wrath', 'Wrath PTR']
+          - name: 'TBC'
+            keys: ['TBC']
+          - name: 'Classic'
+            keys: ['Classic', 'Classic PTR']
+          - name: 'PTR'
+            keys: ['Retail PTR', 'Classic PTR']
