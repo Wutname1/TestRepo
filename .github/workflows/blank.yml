@@ -19,4 +19,5 @@ jobs:
         uses: redhat-plumbers-in-action/advanced-issue-labeler@v1
         with:
           issue-form: ${{ steps.issue-parser.outputs.jsonString }}
+          section: wowversion
           token: ${{ secrets.GITHUB_TOKEN }}
