@@ -9,7 +9,7 @@ body:
       value: |
         Please fillout the form below to submit your bug report.
   - type: input
-    id: addon-version
+    id: addonversion
     attributes:
       label: Addon Version
       description: What version of AdiBags did this error happen on?
@@ -33,7 +33,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: bug-description
+    id: bugdescription
     attributes:
       label: Describe the bug
       description: Please provide a clear and concise description of what the bug is, and include any stacktraces.
@@ -41,7 +41,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: steps-to-reproduce
+    id: stepstoreproduce
     attributes:
       label: Steps to reproduce
       description: How can I reproduce this issue so we can fix it?
